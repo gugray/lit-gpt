@@ -3,7 +3,7 @@ services:
     image: lit-gpt
     container_name: lit-gpt
     volumes:
-      - /werk/devml/lit/gpt/lit-gpt:/repo
+      - /werk/devml/lit-gpt/lit-gpt:/repo
       - /werk/devml/lit-gpt/x-checkpoints:/repo/checkpoints
       - /werk/devml/lit-gpt/x-data:/repo/data
       - /werk/devml/lit-gpt/x-datasets:/repo/datasets

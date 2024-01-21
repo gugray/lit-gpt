@@ -12,4 +12,6 @@ RUN pip uninstall -y torch torchvision torchaudio torchtext
 RUN pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu121
 RUN pip install -U datasets
 
+WORKDIR /repo
+
 ENTRYPOINT ["tail", "-f", "/dev/null"]
